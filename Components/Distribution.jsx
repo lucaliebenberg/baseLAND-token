@@ -19,9 +19,10 @@ const Distribution = () => {
             </div>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 res_md_mt_30 res_sm_mt_20">
-            <div class="title_default_light title_border">
+            <div>
               <h4
                 class="animation"
+                style={{ color: 'white' }}
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
@@ -30,6 +31,7 @@ const Distribution = () => {
               </h4>
               <p
                 class="animation"
+                style={{ color: 'white' }}
                 data-animation="fadeInUp"
                 data-animation-delay="0.4s"
               >
@@ -39,6 +41,7 @@ const Distribution = () => {
               </p>
               <p
                 class="animation"
+                style={{ color: 'white' }}
                 data-animation="fadeInUp"
                 data-animation-delay="0.8s"
               >

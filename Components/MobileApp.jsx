@@ -13,17 +13,19 @@ const MobileApp = () => {
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-7 col-md-12 col-sm-12">
-            <div class="title_default_light title_border text_md_center">
+            <div>
               <h4
                 class="animation"
+                style={{ color: 'white' }}
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
-               baseLAND Foundation <br/>
+               $baseLAND Foundation <br/>
                - Governance
               </h4>
               <p
                 class="animation"
+                style={{ color: 'white' }}
                 data-animation="fadeInUp"
                 data-animation-delay="0.4s"
               >

@@ -25,7 +25,7 @@ const Banner = ({ transferNativeToken, updateTokenSupplySale }) => {
                 data-animation="fadeInUp"
                 data-animation-delay="1.1s"
               >
-                <strong>basedLAND</strong><br/>                
+                <strong>$basedLAND</strong><br/>                
                 <strong>Conserve to Stay</strong>
               </h1>
               <h5

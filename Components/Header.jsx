@@ -81,10 +81,10 @@ const Header = ({ address, connectWallet }) => {
                   </a>
                 ) : (
                   <a
-                    onClick={() => connectWallet()}
+                    onClick={connectWallet}
                     style={{ backgroundColor: 'white', color: 'black' }}
                   >
-                    <small className="new-color"> {"Connect"}</small>
+                    <small className="new-color">Connect</small>
                   </a>
                 )}
               </li>

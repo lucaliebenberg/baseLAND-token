@@ -28,9 +28,10 @@ const About = () => {
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12">
-            <div class="title_default_light title_border text-center">
+            <div class="text-center" style={{ color: 'white' }}>
               <h4
                 class="animation"
+                style={{ color: 'white' }}
                 data-animation="fadeInUp"
                 data-animation-delay="0.2s"
               >
