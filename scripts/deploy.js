@@ -22,7 +22,7 @@ async function main() {
   // TODO: update tokenPrice:-> $0.001/token
   // const _tokenPrice = tokens(0.05);
   const _tokenPrice = tokens(0.001); // ether
-  // 0.0000003 
+  // TODO: update the above to: 0.0000003 
   // 0,001 * 
   // TODO: update tokenSupply -> 50 000 000 (50 mil) [ done ]
   // const _totalSupply = tokens(1000);
