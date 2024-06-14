@@ -85,7 +85,8 @@ const Header = ({ address, connectWallet }) => {
                 ) : (
                   <a
                     onClick={connectWallet}
-                    style={{ backgroundColor: 'white', color: 'black' }}
+                    // style={{ backgroundColor: 'white', color: 'black' }}
+                    class="btn btn-default btn-radius nav_item"
                   >
                     <small className="new-color">Connect</small>
                   </a>
