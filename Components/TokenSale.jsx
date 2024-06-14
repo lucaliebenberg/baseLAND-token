@@ -52,7 +52,8 @@ const TokenSale = ({ buyToken, tokenSale }) => {
                 data-animation-delay="0.2s"
               >
                 Token Sale
-              </h4>       
+              </h4>  
+              <p class="text-center">Token sale will be visible once your wallet is connected</p>     
             </div>
           </div>
         </div>
