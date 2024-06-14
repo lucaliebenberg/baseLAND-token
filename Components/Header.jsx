@@ -3,10 +3,10 @@ import { BiMenu } from "react-icons/bi";
 
 const Header = ({ address, connectWallet }) => {
   const menuList = [
-    {
-      menu: "Home",
-      link: "#home",
-    },
+    // {
+    //   menu: "Home",
+    //   link: "#home",
+    // },
     {
       menu: "About",
       link: "#about",
@@ -15,10 +15,13 @@ const Header = ({ address, connectWallet }) => {
       menu: "Tokenomics",
       link: "#tokenomics",
     },
-
     {
       menu: "Token Sale",
       link: "#tokensale",
+    },
+    {
+      menu: "Booking",
+      link: "#booking",
     },
     {
       menu: "Governance",

@@ -26,7 +26,7 @@ const Booking = ({ userBalance }) => {
                 <div method="post" name="enq" className="field_form">
                   <div className="row">
                     <div className="form-group col-md-12 animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                      <label htmlFor="token-select" className="text-white">Select Token</label>
+                      <label htmlFor="token-select" className="text-white">Select Accomodation</label>
                       <select
                         id="token-select"
                         className="form-control pt-1 pb-1"
@@ -56,7 +56,7 @@ const Booking = ({ userBalance }) => {
                     </div>
                     <div className="form-group col-md-12 animation z-[-1000]" data-animation="fadeInUp" data-animation-delay="0.8s">
                       <label className="text-white">Your $STAY Balance</label>
-                      <p className="form-control bg-dark text-white">{userBalance} $STAY</p>
+                      <p className="form-control bg-dark text-white">00.00</p>
                     </div>
                   </div>
                 </div>
