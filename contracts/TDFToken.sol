@@ -2,6 +2,8 @@
 pragma solidity ^0.8.0;
 
 import "../interfaces/ITransferPermitter.sol";
+import "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/access/Ownable2StepUpgradeable.sol";
 
 contract TDFToken is ERC20Upgradeable, Ownable2StepUpgradeable {
     /**
@@ -88,8 +90,7 @@ contract TDFToken is ERC20Upgradeable, Ownable2StepUpgradeable {
         address from,
         address to,
         uint256 amount
-    ) internal virtual override {
-        super._beforeTokenTransfer(from, to, amount);
+    ) internal {
         require(!paused(), "ERC20Pausable: token transfer while paused");
         require(_daoContract.isTokenTransferPermitted(from, to, amount), "Transfer not allowed by DAO");
     }
