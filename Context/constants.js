@@ -6,11 +6,11 @@ import TokenSale from "./TokenSale.json";
 export const OWNER_ADDRESS = "0xBF429dBeDdeeC9393C95D4452ed88E2FC9615169"; // Coinbase wallet 
 
 //TOKEN
-export const TOKEN_ADDRESS = "0xceAa595ef6d95dce35d807E1706d4D050A64f8a1"; // ReFiTokenSale
+export const TOKEN_ADDRESS = "0x6BE41F18587e992c7B5588755Ee49DFb5e33139b"; // ReFiTokenSale
 export const TOKEN_ABI = ReFiTokenSale.abi;
 
 //TOKEN SALE
-export const TOKEN_SALE_ADDRESS = "0x5C1d0192cbe195C2c07938d3D220e3F84CB7BB0b"; // TokenSale
+export const TOKEN_SALE_ADDRESS = "0x248CD64CB901f3B881F0F1F0A41E2568f4FB748f"; // TokenSale
 export const TOKEN_SALE_ABI = TokenSale.abi;
 
 //NETWORK
