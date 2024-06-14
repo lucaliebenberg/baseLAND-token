@@ -1,8 +1,8 @@
 import ReFiTokenSale from "./ReFiTokenSale.json";
 import TokenSale from "./TokenSale.json";
 
-//OWNER OF CONTRACT
 // export const OWNER_ADDRESS = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"; // Account 2 
+//OWNER OF CONTRACT
 export const OWNER_ADDRESS = "0xBF429dBeDdeeC9393C95D4452ed88E2FC9615169"; // Coinbase wallet 
 
 //TOKEN
