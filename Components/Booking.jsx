@@ -104,7 +104,7 @@ const Booking = ({ buyToken, tokenSale }) => {
                 data-animation-delay="1.2s"
                 style={{ textTransform: 'none' }}
               >
-                1 ETH = 3333333 basedLAND
+                1 baseLAND = 0.0000003 ETH
               </p>
             </div>
           </div>
