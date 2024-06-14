@@ -5,7 +5,7 @@ const tokens = (nToken) => {
 };
 
 async function main() {
-  //TheBlockchainCoders
+  // baseLAND
   // 500 tokens = 500 0000
   // 100 000 000 0000 = 100 mil
   const _initialSupply = tokens(5000000000000); // TODO: update intialSupply -> 100000000 (100mil)
@@ -21,9 +21,10 @@ async function main() {
   //TOKEN SALE
   // TODO: update tokenPrice:-> $0.001/token
   // const _tokenPrice = tokens(0.05);
-  const _tokenPrice = tokens(0.001); // ether 
+  const _tokenPrice = tokens(0.001); // ether
+  // 0.0000003 
   // 0,001 * 
-  // TODO: update tokenSupply -> 50 000 000 (50 mil)
+  // TODO: update tokenSupply -> 50 000 000 (50 mil) [ done ]
   // const _totalSupply = tokens(1000);
   const _totalSupply = tokens(50000000);
   // 50000000
@@ -44,5 +45,5 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-//npx hardhat run scripts/deploy.js --network polygon_amoy
+//npx hardhat run scripts/deploy.js --network base_mainnet
 //npx hardhat run scripts/deploy.js --network localhost

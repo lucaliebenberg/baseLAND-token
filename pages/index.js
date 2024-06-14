@@ -18,6 +18,7 @@ import {
   Team,
   // TimeLine,
   TokenSale,
+  Booking
 } from "../Components/index";
 import { useStateContext } from "../Context/index";
 
@@ -54,6 +55,9 @@ const index = () => {
 
       {/* Token Sale */}
       <TokenSale buyToken={buyToken} tokenSale={tokenSale} />
+
+      {/* Bookings (Proof of Presence impl.) */}
+      <Booking />
 
       {/* Foundation */}
       <Distribution /> 

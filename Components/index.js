@@ -14,6 +14,7 @@ import Service from "./Service";
 import Team from "./Team";
 import TimeLine from "./TimeLine";
 import TokenSale from "./TokenSale";
+import Booking from "./Booking";
 
 export {
   About,
@@ -32,4 +33,5 @@ export {
   Team,
   TimeLine,
   TokenSale,
+  Booking
 };
