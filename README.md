@@ -38,7 +38,7 @@ To install and set up the project, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/basedLAND-token.git
+    git clone https://github.com/lucaliebenberg/basedLAND-token.git
     cd basedLAND-token-sale
     ```
 
