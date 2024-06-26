@@ -75,25 +75,6 @@ To install and set up the project, follow these steps:
 - The progress bar displays the percentage of tokens sold in real-time.
 - Token sale details such as starting time, ending time, and exchange rate are provided.
 
-## Contributing
-
-We welcome contributions to the basedLAND Token Sale project. To contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature/YourFeatureName
-    ```
-3. Make your changes and commit them:
-    ```bash
-    git commit -m 'Add some feature'
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature/YourFeatureName
-    ```
-5. Create a pull request.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
