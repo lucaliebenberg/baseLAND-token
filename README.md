@@ -1,4 +1,4 @@
-# basedLAND Token Sale
+# basedLAND
 
 Welcome to the basedLAND Token Sale! This platform allows users to participate in the token sale, stake their tokens, and receive rewards, thereby getting value from their investments.
 
